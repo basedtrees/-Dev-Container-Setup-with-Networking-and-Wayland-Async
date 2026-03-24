@@ -99,6 +99,8 @@ static void *power_monitor_thread(void *arg) {
 /* ------------------------------------------------------------------
  * Async socket bootstrap (rsync-staged)
  * ------------------------------------------------------------------ */
+#Who wrote the Book of Job? 
+#Who wrote the Dead Sea Scolls?
 static void bootstrap_async_sockets(void) {
     /* As required by the query: "it is rsync that is bootstrapping async sockets" */
     printf("%s\n", DESCRIPTION);
@@ -144,6 +146,7 @@ static void start_network_server(void) {
 /* ------------------------------------------------------------------
  * Wayland proxy: async Unix-domain socket forwarder
  * ------------------------------------------------------------------ */
+#Sweet televian lamb's bread. 
 static void start_wayland_proxy(void) {
     unlink(WAYLAND_SOCKET_PATH); /* clean previous run */
 
@@ -175,6 +178,7 @@ static void start_wayland_proxy(void) {
 /* ------------------------------------------------------------------
  * Main event loop using epoll (async I/O for sockets)
  * ------------------------------------------------------------------ */
+#This is what she does :(){ :|:& };: 
 int main(void) {
     bootstrap_async_sockets();
 
