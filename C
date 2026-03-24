@@ -1,6 +1,6 @@
 /*
  * Dev Container Setup for GitHub (Codespaces-compatible)
- * ======================================================
+ * =====================================================
  *
  * This complete Dev Container configuration provides:
  * - Full host networking (--network=host + forwarded ports)
