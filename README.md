@@ -67,7 +67,6 @@ It delivers advanced capabilities beyond a standard dev environment:
 - **Power Management** — Monitors `/sys/power` via inotify and gracefully handles sleep (`mem`) and hibernation (`disk`) states
 - **Performance** — Pure C with `epoll` for maximum efficiency and low latency
 - **Bootstrapping** — Explicit use of `rsync` to safely initialize the async socket infrastructure (highlighted in program output)
-- **Codespaces-Ready** — Works instantly when you open the repo in GitHub Codespaces
 
 ## Quick Start
 
