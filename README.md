@@ -21,9 +21,8 @@ It delivers advanced capabilities beyond a standard dev environment:
 - **Networking** — Full host network access + async TCP server listening on port 8080 (non-blocking, epoll-driven)
 - **Wayland Proxy** — Async Unix socket forwarder at `/tmp/wayland-proxy-0` (ready for GUI apps inside the container)
 - **Power Management** — Monitors `/sys/power` via inotify and gracefully handles sleep (`mem`) and hibernation (`disk`) states
-- **Performance** — Pure C with `epoll` for maximum efficiency and low latency
-- **Bootstrapping** — Explicit use of `rsync` to safely initialize the async socket infrastructure (highlighted in program output)
-- **Codespaces-Ready** — Works instantly when you open the repo in GitHub Codespaces
+- **Performance** — Pure C with `epoll` for maximum efficiency, low latency
+- **Bootstrapping** — Explicit `rsync` to signify the initialisation of async socket infrastructure 
 
 ## Quick Start
 
